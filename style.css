@@ -561,12 +561,6 @@ follow-section area */
     width: 100%;
     background-color: #f6fcfa;
 }
-@media (max-width: 900px){
-#stats-wrapper {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
     
 #stats-wrapper {
     font-family: 'Poppins',sans-serif;
@@ -580,6 +574,12 @@ follow-section area */
     justify-content: stretch;
 }
 
+@media (max-width: 900px){
+#stats-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 }
 .stats-item {
@@ -609,6 +609,8 @@ follow-section area */
     color: #8b8b99;
     font-size: 44px;
     font-weight: 400;
+    margin-bottom: 44px;
+    margin-top: 44px;
 }
 
 #video-section > div {
